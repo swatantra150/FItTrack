@@ -8,7 +8,7 @@ import Animated, { FadeIn, FadeInDown, FadeOut } from 'react-native-reanimated';
 const BodyParts = () => {
   return (
     <View style={styles.container}>
-      <Text style={[styles.heading,{color:'#D980FA'}]}>Exercise</Text>
+      <Text style={[styles.heading,{color:'#D980FAf'}]}>Exercise</Text>
       <FlatList
         data={bodyParts}
         keyExtractor={item => item.name}
